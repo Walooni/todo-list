@@ -1,3 +1,4 @@
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 import React, {useState} from "react";
 
 function CreateArea(props) {
@@ -27,7 +28,7 @@ function CreateArea(props) {
           props.addItem({ title: input.title, text: input.text });
           event.preventDefault();
           setInput({title: "", text: ""});
-        }} >Add</button>
+        }}> <AddCircleIcon fontSize='medium' /> </button>
       </form>
     </div>
   );
