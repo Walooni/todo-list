@@ -1,7 +1,7 @@
 import React,{useState}  from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Note from "./note";
+import Note from "./Note";
 import Notes from "../notesList.js";
 import CreateArea from "./CreateArea.jsx";
 
